@@ -11,6 +11,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <Button
+            android:id="@+id/activityTwoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="The second part of homework" />
+
         <TextView
             android:text="Швейцария"
             android:textColor="#FAFAFA"
