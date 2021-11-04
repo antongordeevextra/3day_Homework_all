@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Швейцария"
+            android:textColor="#FAFAFA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#070707" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="240dp">
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DA0E0E"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="60dp"
+                android:layout_height="160dp"
+                android:background="#FBF8F8"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:background="#FBF8F8"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:text="Дания"
+            android:textColor="#FAFAFA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#070707" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="240dp">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DA0E0E" />
+
+            <View
+                android:layout_marginStart="120dp"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:background="#FBF8F8" />
+
+            <View
+                android:layout_marginTop="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="#FBF8F8" />
+        </FrameLayout>
+
+        <TextView
+            android:text="Тайланд"
+            android:textColor="#FAFAFA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#070707" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#EA0606" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#F4F3F3" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.75"
+                android:background="#303F9F" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#F4F3F3" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#EA0606" />
+
+        </LinearLayout>
+
+        <TextView
+            android:text="Мадагаскар"
+            android:textColor="#FAFAFA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#070707" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="240dp">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#F8F5F5" />
+
+            <View
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="#EF0707"
+                android:layout_marginStart="160dp" />
+
+            <View
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="#134716"
+                android:layout_marginStart="160dp"
+                android:layout_gravity="bottom" />
+
+        </FrameLayout>
+
+        <TextView
+            android:text="Австрия"
+            android:textColor="#FAFAFA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#070707" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#DF0606" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#FAF7F7" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#DF0606" />
+
+        <TextView
+            android:text="Польща"
+            android:textColor="#FAFAFA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#070707" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="#FAF7F7" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="#DF0606" />
+
+        <TextView
+            android:text="Колумбия"
+            android:textColor="#FAFAFA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#070707" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:background="#FBC02D" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="#303F9F" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="#DF0606" />
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:text="Италия"
+            android:textColor="#FAFAFA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#070707" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_weight="0.33"
+                android:layout_height="240dp"
+                android:background="#388E3C" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_weight="0.33"
+                android:layout_height="240dp"
+                android:background="#FAF6F6" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_weight="0.33"
+                android:layout_height="240dp"
+                android:background="#DF0606" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
