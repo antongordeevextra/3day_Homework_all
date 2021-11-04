@@ -16,7 +16,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="The second part of homework" />
+            android:text="Regular way to load image" />
+
+        <Button
+            android:id="@+id/activityThreeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Using glide" />
 
         <TextView
             android:text="Швейцария"

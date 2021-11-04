@@ -18,5 +18,9 @@ class MainActivity : AppCompatActivity() {
         binding.activityTwoButton.setOnClickListener {
             startActivity(Intent(this, SecondActivity::class.java))
         }
+
+        binding.activityThreeButton.setOnClickListener {
+            startActivity(Intent(this, GlideActivity::class.java))
+        }
     }
 }
